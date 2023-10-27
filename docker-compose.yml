@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    working_dir: /app
+    volumes:
+      - "./src:/app/src"
+    ports:
+      - 5050:5050
+    # command: sh -c "tail -f /dev/null"
+    command : sh -c "python /app/src/setup.py && python /app/src/run.py"

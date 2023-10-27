@@ -1,0 +1,15 @@
+openai
+Flask==2.3.0
+webdav4
+debugpy
+python-dotenv
+flask-bootstrap
+flask-sqlalchemy
+flask-wtf
+flask-bcrypt
+email_validator
+flask_login
+Werkzeug==2.3.0
+WTForms==3.0.1
+PyJWT
+Flask-Mail

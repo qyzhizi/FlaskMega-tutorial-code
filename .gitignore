@@ -1,0 +1,4 @@
+src/app.db
+*.pyc
+.DS_Store
+
